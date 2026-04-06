@@ -331,7 +331,7 @@ Respond ONLY in raw JSON, no markdown fences:
 
   try {
     // Use Cloudflare proxy to avoid CORS
-    const res = await fetch('https://exception-ai-proxy.YOUR-SUBDOMAIN.workers.dev/', {
+    const res = await fetch('https://exception-ai-proxy.morantes.workers.dev/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ model: 'claude-sonnet-4-20250514', max_tokens: 500, messages })
