@@ -2,6 +2,8 @@
 // EXCEPTION ANALYZER - AI-Powered License Plate Exception Tool
 // ============================================================
 
+(async () => {
+
 // Remove existing panel if already open
 const existing = document.getElementById('__exception_analyzer__');
 if (existing) { existing.remove(); return; }
@@ -376,3 +378,5 @@ Respond ONLY in raw JSON, no markdown fences:
 }
 
 runAIAnalysis();
+
+})();
