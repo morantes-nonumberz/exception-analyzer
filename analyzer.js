@@ -1,4 +1,3 @@
-javascript:(async()=>{
   // ============================================================
   // EXCEPTION ANALYZER - AI-Powered License Plate Exception Tool
   // ============================================================
@@ -480,5 +479,3 @@ Respond in JSON only, no markdown:
   }
 
   runAIAnalysis();
-
-})();
